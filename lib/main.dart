@@ -84,7 +84,7 @@ class _HomeState extends State<Home> {
                         children: <Widget>[
                           Icon(Icons.monetization_on,
                               size: 150.0, color: Colors.blueGrey),
-                          buildTextFormField("Informe o simbo ", searchController, _symbolChange),
+                          buildTextFormField("Informe o símbolo da empresa ", searchController, _symbolChange),
                           Divider(),
                           ElevatedButton(
                             style: ElevatedButton.styleFrom(
